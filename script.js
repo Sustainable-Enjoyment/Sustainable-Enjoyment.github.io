@@ -1,6 +1,6 @@
 const translations = {
   zh: {
-    navAbout: '关于我', navEducation: '教育背景', navProjects: '项目', navContact: '联系',
+    navAbout: '关于我', navEducation: '教育背景', navContact: '联系',
     eyebrow: '博士生 · 计算机系', heroTagline: '香港理工大学计算机系博士生',
     heroIntro: '导师：曹建农教授、陈云天教授。',
     emailMe: '发邮件 <span>↗</span>', aboutLabel: '关于我',
