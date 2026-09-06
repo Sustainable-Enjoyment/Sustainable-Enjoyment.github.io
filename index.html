@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sicheng Qu — Ph.D. student in the Department of Computing at The Hong Kong Polytechnic University." />
+  <title>Sicheng Qu | Ph.D. Student at PolyU</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">SICHENG QU</a>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#about" data-i18n="navAbout">About</a>
+      <a href="#projects" data-i18n="navProjects">Projects</a>
+      <a href="#education" data-i18n="navEducation">Education</a>
+      <a href="#contact" data-i18n="navContact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button class="text-button" id="langToggle" type="button" aria-label="Switch language">中文</button>
+      <button class="theme-button" id="themeToggle" type="button" aria-label="Toggle color theme">☼</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">PH.D. STUDENT · DEPARTMENT OF COMPUTING</p>
+        <h1 data-i18n="heroTitle">Building principled computational approaches to meaningful problems.</h1>
+        <p class="hero-intro" data-i18n="heroIntro">I am Sicheng Qu, a first-year Ph.D. student at The Hong Kong Polytechnic University, supervised by Prof. Jiannong Cao and Prof. Yuntian Chen.</p>
+        <div class="hero-links">
+          <a class="button button-primary" href="mailto:sicheng.qu@connect.polyu.hk" data-i18n="emailMe">Email me <span>↗</span></a>
+        </div>
+      </div>
+      <div class="hero-aside">
+        <div class="portrait-frame">
+          <img src="assets/cvimg-000.png" alt="Portrait of Sicheng Qu" />
+        </div>
+        <p class="location">Hong Kong · 2026—</p>
+      </div>
+    </section>
+
+    <section id="about" class="content-grid section-shell">
+      <div class="section-label"><span>01</span><h2 data-i18n="aboutLabel">About</h2></div>
+      <div class="section-body">
+        <p class="lead" data-i18n="aboutLead">I am interested in computational problems that begin with real-world needs and open up room for methodological, algorithmic, or theoretical contributions.</p>
+        <p data-i18n="aboutBody1">My undergraduate training combined mathematics and finance. Through projects in production decision-making, supply-chain risk measurement, and social-network analysis, I worked with statistical inference, optimization, dynamic programming, natural language processing, and network simulation.</p>
+        <p data-i18n="aboutBody2">I am currently reading across different areas and learning how research questions are formed. My interests will evolve as I find problems that are both useful in practice and rewarding to study deeply.</p>
+        <div class="interest-note"><span class="dot"></span><span data-i18n="interestNote">Research interests are currently evolving.</span></div>
+      </div>
+    </section>
+
+    <section id="projects" class="content-grid section-shell section-lined">
+      <div class="section-label"><span>02</span><h2 data-i18n="projectsLabel">Selected projects</h2></div>
+      <div class="section-body cards">
+        <article class="project-card">
+          <div class="card-top"><span>01</span><span>2024.09</span></div>
+          <h3 data-i18n="project1Title">Production decision-making under inspection uncertainty</h3>
+          <p data-i18n="project1Body">A multi-stage model for production systems with inspection costs and uncertain quality. I led the team, developed the model, and used sequential probability ratio testing, dynamic programming, and sensitivity analysis to study robust decisions.</p>
+          <a href="https://github.com/Sustainable-Enjoyment/-Math_Modeling_Project_2024B" target="_blank" rel="noreferrer" class="card-link">GitHub <span>↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="card-top"><span>02</span><span>2024.07—08</span></div>
+          <h3 data-i18n="project2Title">Supply-chain risk measurement with text embeddings</h3>
+          <p data-i18n="project2Body">An independent project that used Word2Vec representations to extract risk signals from earnings-call transcripts and relate them to U.S. equity-market data, with possible extensions using attention and graph-based ranking.</p>
+          <a href="https://github.com/Sustainable-Enjoyment/Risk_Measure" target="_blank" rel="noreferrer" class="card-link">GitHub <span>↗</span></a>
+        </article>
+        <article class="project-card">
+          <div class="card-top"><span>03</span><span>2024.05—06</span></div>
+          <h3 data-i18n="project3Title">Influence maximization in social networks</h3>
+          <p data-i18n="project3Body">A study of information diffusion using greedy selection, the independent cascade model, breadth-first search, and Monte Carlo simulation to identify influential nodes in a network of 20,000 users.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="content-grid section-shell section-lined">
+      <div class="section-label"><span>03</span><h2 data-i18n="educationLabel">Education</h2></div>
+      <div class="section-body timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2026—</div>
+          <div><h3>The Hong Kong Polytechnic University</h3><p data-i18n="phdLine">Ph.D. student · Department of Computing</p><p class="muted" data-i18n="supervisorLine">Supervised by Prof. Jiannong Cao and Prof. Yuntian Chen · PolyU Research Postgraduate Scholarship</p></div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2022—2026</div>
+          <div><h3>Shandong University</h3><p data-i18n="bachelorLine">Honors Bachelor's degree in Mathematics · Bachelor's degree in Finance (dual degree)</p><p class="muted" data-i18n="awardLine">Top 3.7% of the class · Outstanding Graduate · National First Prize, China Undergraduate Mathematical Contest in Modeling (2024)</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section-shell">
+      <div><p class="eyebrow" data-i18n="contactEyebrow">GET IN TOUCH</p><h2 data-i18n="contactTitle">A conversation about a good problem is always welcome.</h2></div>
+      <a class="contact-email" href="mailto:sicheng.qu@connect.polyu.hk">sicheng.qu@connect.polyu.hk <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer section-shell"><span>© 2026 Sicheng Qu</span><span data-i18n="footerText">Last updated September 2026</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
