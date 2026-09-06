@@ -63,6 +63,11 @@ h2 { margin: 0; font: 500 25px var(--serif); letter-spacing: -.02em; }
 .timeline-item:last-child { border-bottom: 0; margin-bottom: 0; padding-bottom: 0; }
 .timeline-date { color: var(--accent-dark); font-size: 12px; padding-top: 4px; }
 .timeline-item h3 { margin: 0 0 5px; font: 500 22px var(--serif); }
+.degree-primary { color: var(--ink) !important; font-size: 18px !important; font-weight: 600; margin-bottom: 8px !important; }
+.degree-highlights { display: grid; gap: 8px; margin: 12px 0 14px; }
+.degree-highlights span { display: inline-flex; align-items: baseline; width: fit-content; padding: 5px 11px 6px; background: var(--soft-accent); color: var(--ink); font: 600 17px/1.35 var(--serif); }
+.degree-highlights span:first-child { border-left: 3px solid var(--accent); }
+.degree-highlights em { color: var(--accent-dark); font: italic 13px var(--sans); margin-left: 4px; }
 .timeline-item p { margin-bottom: 5px; }
 .timeline-item .muted { font-size: 13px; }
 .contact { display: flex; justify-content: space-between; gap: 30px; align-items: end; padding-top: 95px; padding-bottom: 95px; border-top: 1px solid var(--line); position: relative; }
@@ -85,6 +90,7 @@ body.dark .portrait-frame { background: #234c68; }
   .cards { grid-template-columns: 1fr; }
   .project-card { min-height: 0; }
   .timeline-item { grid-template-columns: 80px 1fr; gap: 12px; }
+  .degree-highlights span { font-size: 15px; }
   .contact { display: block; padding-top: 68px; padding-bottom: 68px; }
   .contact::after { right: 22px; top: 28px; }
   .contact-email { display: inline-block; margin-top: 22px; }
