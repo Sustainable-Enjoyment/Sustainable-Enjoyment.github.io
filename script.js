@@ -1,11 +1,11 @@
 const translations = {
   zh: {
-    navAbout: '关于我', navProjects: '项目', navEducation: '教育背景', navContact: '联系',
-    eyebrow: '博士生 · 计算机系', motto: '宁做我，岂其卿', heroTagline: '香港理工大学计算机系博士生',
+    navAbout: '关于我', navEducation: '教育背景', navContact: '联系',
+    eyebrow: '博士生 · 计算机系', heroTagline: '香港理工大学计算机系博士生',
     heroIntro: '我是渠思成，目前在香港理工大学计算机系攻读博士学位，导师为曹建农教授和陈云天教授。',
     emailMe: '发邮件 <span>↗</span>', aboutLabel: '关于我',
     aboutLead: '我关注源于现实需求、能够产生实际影响，同时又具有方法、算法或理论研究空间的计算问题。',
-    aboutBody1: '我的本科训练结合了数学与金融。期间，我围绕生产决策、供应链风险测度和社交网络分析开展项目，接触了统计推断、优化、动态规划、自然语言处理和网络模拟等方法。',
+    aboutBody1: '我的本科训练结合了数学与金融，为我打下了数学建模、优化和数据驱动决策方面的基础。',
     aboutBody2: '目前我正通过跨领域阅读来理解研究问题是如何形成的，并逐步寻找既有实际价值、又值得深入研究的问题。我的研究兴趣会随着博士阶段的推进持续发展。',
     interestNote: '研究兴趣仍在探索中。', projectsLabel: '项目经历',
     project1Title: '抽样检测不确定性下的企业生产决策', project1Body: '针对质量检测成本和不确定性，建立多阶段生产决策模型。作为队长，我负责模型设计、序贯概率比检验、动态规划和灵敏度分析。',
