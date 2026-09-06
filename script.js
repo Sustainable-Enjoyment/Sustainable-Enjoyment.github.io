@@ -2,7 +2,7 @@ const translations = {
   zh: {
     navAbout: '关于我', navEducation: '教育背景', navProjects: '项目', navContact: '联系',
     eyebrow: '博士生 · 计算机系', heroTagline: '香港理工大学计算机系博士生',
-    heroIntro: '我是渠思成，目前在香港理工大学计算机系攻读博士学位，导师为曹建农教授和陈云天教授。',
+    heroIntro: '导师：曹建农教授、陈云天教授。',
     emailMe: '发邮件 <span>↗</span>', aboutLabel: '关于我',
     aboutLead: '我关注源于现实需求、能够产生实际影响，同时又具有方法、算法或理论研究空间的计算问题。',
     aboutBody1: '我的本科训练结合了数学与金融。期间，我围绕生产决策、供应链风险测度和社交网络分析开展项目，接触了统计推断、优化、动态规划、自然语言处理和网络模拟等方法。',
