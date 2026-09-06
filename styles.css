@@ -24,12 +24,16 @@ a { color: inherit; text-decoration: none; }
 .theme-button { width: 30px; height: 30px; font-size: 15px; }
 .section-shell { max-width: 1180px; margin: 0 auto; padding-left: 28px; padding-right: 28px; }
 .hero { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(250px, .75fr); gap: 80px; padding-top: 105px; padding-bottom: 115px; position: relative; overflow: hidden; }
-.hero::before { content: 'QU'; position: absolute; right: -8px; top: 38px; color: transparent; -webkit-text-stroke: 1px rgba(214,106,72,.15); font: 700 clamp(150px, 24vw, 300px)/1 var(--serif); letter-spacing: -.12em; pointer-events: none; }
+.hero::before { content: 'W'; position: absolute; right: 12px; top: 42px; color: transparent; -webkit-text-stroke: 1px rgba(214,106,72,.15); font: 700 clamp(170px, 27vw, 330px)/1 var(--serif); letter-spacing: -.12em; pointer-events: none; }
 .hero::after { content: ''; position: absolute; width: 250px; height: 250px; left: 48%; top: 35px; border: 1px solid var(--soft-accent); border-radius: 50%; pointer-events: none; }
 .hero-copy, .hero-aside { position: relative; z-index: 1; }
 .eyebrow { margin: 0 0 18px; font-size: 11px; letter-spacing: .16em; color: var(--accent-dark); font-weight: 700; }
 h1, h2, h3, p { margin-top: 0; }
-h1 { max-width: 770px; margin-bottom: 28px; font: 500 clamp(42px, 5.4vw, 76px)/1.06 var(--serif); letter-spacing: -.04em; }
+.hero-name { max-width: 900px; margin-bottom: 0; font: 500 clamp(72px, 11vw, 148px)/.88 var(--serif); letter-spacing: -.065em; }
+.hero-name span { color: var(--accent-dark); }
+.preferred-name { margin: 16px 0 22px; color: var(--muted); font: italic 22px var(--serif); letter-spacing: .08em; }
+.motto { display: inline-block; margin: 0 0 28px; padding: 8px 16px 10px; background: var(--soft-accent); color: var(--ink) !important; font: 500 22px/1.3 var(--serif) !important; letter-spacing: .08em; }
+.hero-tagline { margin: 0 0 12px; color: var(--ink); font-size: 16px; font-weight: 600; }
 .hero-intro { max-width: 620px; color: var(--muted); font-size: 17px; }
 .hero-links { display: flex; gap: 12px; margin-top: 34px; }
 .button { display: inline-flex; gap: 12px; align-items: center; border-radius: 99px; padding: 11px 18px; font-size: 13px; }
@@ -85,7 +89,8 @@ body.dark .portrait-frame { background: #234c68; }
   .hero::before { right: -45px; top: 42px; font-size: 170px; }
   .hero::after { left: auto; right: 25px; top: 230px; width: 130px; height: 130px; }
   .hero-aside { justify-self: start; width: 170px; }
-  h1 { font-size: clamp(42px, 12vw, 62px); }
+  .hero-name { font-size: clamp(66px, 18vw, 108px); }
+  .motto { font-size: 18px !important; }
   .content-grid { grid-template-columns: 1fr; gap: 26px; padding-top: 55px; padding-bottom: 62px; }
   .cards { grid-template-columns: 1fr; }
   .project-card { min-height: 0; }

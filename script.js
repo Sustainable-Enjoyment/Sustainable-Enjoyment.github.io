@@ -1,7 +1,7 @@
 const translations = {
   zh: {
     navAbout: '关于我', navProjects: '项目', navEducation: '教育背景', navContact: '联系',
-    eyebrow: '博士生 · 计算机系', heroTitle: '从真实问题出发，寻找有原则的计算方法。',
+    eyebrow: '博士生 · 计算机系', motto: '宁做我，岂其卿', heroTagline: '香港理工大学计算机系博士生',
     heroIntro: '我是渠思成，目前在香港理工大学计算机系攻读博士学位，导师为曹建农教授和陈云天教授。',
     emailMe: '发邮件 <span>↗</span>', aboutLabel: '关于我',
     aboutLead: '我关注源于现实需求、能够产生实际影响，同时又具有方法、算法或理论研究空间的计算问题。',
